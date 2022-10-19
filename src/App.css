@@ -1,38 +1,148 @@
-.App {
+.App{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* height: 50%; */
+  /* background-size: cover; */
+  /* background-image: url("https://pixabay.com/get/gf65f2b705a6171363f20824f9f44ad625bb20d597ee426968ba3fe46759d9bdd5b0816a6eafa1fff7d6ce4350ecfd0f2.jpg?attachment="); */
+}
+
+.form-card{
+  margin: 50px 0px 0px 0px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.col-form-label{
+  font-weight: bold;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(78, 64, 64);
+}
+
+.card-Title{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-bold{
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.bluetext{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#ab{
+  margin-bottom: 50px;
+}
+
+.img-fluid{
+  margin: 0px;
+  padding: 0px;
+  /* height: 100%; */
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+.pagebtn{
+  border-radius: 10px;
+
+}
+
+/* .bgimage{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://pixabay.com/get/gf65f2b705a6171363f20824f9f44ad625bb20d597ee426968ba3fe46759d9bdd5b0816a6eafa1fff7d6ce4350ecfd0f2.jpg?attachment=");
+} */
+
+.bgimage{
+  background-image: linear-gradient(rgb(10, 211, 242), rgb(66, 98, 239));
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav-link{
+  font-size: large;
+  width:100px;
   text-align: center;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.account{
+  width: 100px;
+  height: 80px;
+  background-color: white;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#account{
+  
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.font-weight-bold{
+  font-weight: bold;
+  font-size: 15px;
+  background:aliceblue;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#tablealign{
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  background-color: aliceblue;
+}
+
+#textsize{
+  font-size: larger;
+}
+
+.textsize{
+  font-weight: bold;
+}
+
+#textsizeheader{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagebutton {
+  border : 7px transparent ridge;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pagemodify{
+  border : 7px transparent ridge;
+  padding: 5px 10px;
+  font-weight: bold;
+  
+}
+
+.page-item{
+  margin: 10px;
+  padding: 10px 15px;
+}
+
+.search{
+  border-radius: 5px;
+  padding: 10px;
+  border-style: none;
+}
+
+.filters{
+  margin: 0px 0px;
 }
